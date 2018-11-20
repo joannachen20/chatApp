@@ -9,5 +9,7 @@ Make sure you have a version of Node.js in your system.
 Then install the following:
 
 ```
+npm install express
+
 npm install socket.io
 ```
