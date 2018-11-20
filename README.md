@@ -19,3 +19,4 @@ npm install express
 
 npm install socket.io
 ```
+The following application attaches socket.io to a Node.JS HTTP server listening on port 8000.
