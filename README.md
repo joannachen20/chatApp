@@ -1,6 +1,12 @@
 # storyChat
 
-Contribute to the narrative story following the first liner while collaborating with other users.
+## Features
+
+Chat room style
+
+Create a narrative story following a given first liner
+
+Anonymously collaborate with other users
 
 ## Getting Started - Run App Locally
 
