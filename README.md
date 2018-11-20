@@ -2,11 +2,11 @@
 
 ## Features
 
-Chat room style
+* Chat room style
 
-Create a narrative story following a given first liner
+* Create a narrative story following a given first liner
 
-Anonymously collaborate with other users
+* Anonymously collaborate with other users
 
 ## Getting Started - Run App Locally
 
