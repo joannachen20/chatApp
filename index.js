@@ -14,6 +14,7 @@ http.listen(8000, () => {
   console.log('listening on *:8000');
 });
 
+
 io.on('connection', (socket) => {
   //console.log('a user connected');
   client.push({id : socket.client.id})
@@ -21,7 +22,8 @@ io.on('connection', (socket) => {
     var getClientID = client.find(e => (e.id === socket.client.id))
     //console.log("the Client", getClientID);
     if(getClientID){
-      socket.emit("chat message", history);
+      new_history = history.join(' '); //removing comma when displaying array
+      socket.emit("chat message", new_history);
     }
   socket.on('chat message', (msg) => {
     //console.log('message: ' + msg);

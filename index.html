@@ -2,15 +2,28 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Socket.io chat</title>
+    <title>Story Chat</title>
     <style>
+    @import url('https://fonts.googleapis.com/css?family=Ubuntu');
+      h1 {
+        font: 'Ubuntu', sans-serif;
+        padding: 10px;
+        background: #369DDE;
+        color: #FFFFFF;
+      }
       * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
       }
+      p {
+        font: 13px 'Ubuntu';
+        margin: 0;
+        padding: 10px;
+        background: #EEEEEE;
+      }
       body {
-        font: 13px Helvetica, Arial;
+        font: 13px 'Ubuntu';
       }
       form {
         background: #EEEEEE;
@@ -48,6 +61,8 @@
     </style>
   </head>
   <body>
+    <h1>Story Chat</h1>
+    <p>First liner: I was getting coffee and </p>
 <ul id="messages"></ul>
     <form action="">
       <input id="m" autocomplete="off"/>
