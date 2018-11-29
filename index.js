@@ -6,7 +6,6 @@ var history = [];
 var client = [];
 
 app.get('/', (req, res) => {
-  //res.send('<h1>hello world</h1>');
   res.sendFile(__dirname + '/index.html');
 });
 
